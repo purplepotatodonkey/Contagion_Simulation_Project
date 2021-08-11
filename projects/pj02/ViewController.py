@@ -23,7 +23,7 @@ class ViewController:
         self.screen.setup(constants.VIEW_WIDTH, constants.VIEW_HEIGHT)
         self.screen.tracer(0, 0)
         self.screen.delay(0)
-        self.screen.title("Cluster Funk v2")
+        self.screen.title("Contagion Simulation by Joseph Wang")
         self.pen = Turtle()
         self.pen.hideturtle()
         self.pen.speed(0)
